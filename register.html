@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+
+    <!------------------------ Register / Login--------------------------- -->
+
+    <div class="login-container">
+        <i class="fa fa-times" id="btn-close"></i>
+        <div class="login-box">
+            <form>
+                <h2>Login</h2>
+                <label for="log-mail">
+                    <i class="fa fa-envelope-o"></i>
+                    <input type="email" name="mail" id="log-mail" required placeholder="your Email">
+                </label>
+                <label for="log-pass">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" name="pass" id="log-pass" required placeholder="your Password">
+                </label>
+                <label for="chk" class="check">
+                    <input type="checkbox" name="chk" id="chk">
+                    Remember Me
+                </label>
+                <button type="submit">Login</button>
+                <p>Or login with</p>
+                <a href="#" class="btn btn-fb">
+                    <i class="fa fa-facebook"></i>
+                    Facebook
+                </a>
+                <a href="#" class="btn btn-gg">
+                    <i class="fa fa-google"></i>
+                    Google
+                </a>
+                <p>Not a member? <a href="#" class="next-log">Register now</a></p>
+            </form>
+        </div>
+        <div class="login-box hidden" id="res">
+            <form>
+                <h2>Register</h2>
+                <label for="res-user">
+                    <i class="fa fa-user"></i>
+                    <input type="text" name="user" id="res-user" required placeholder="User Name">
+                </label>
+                <label for="res-mail">
+                    <i class="fa fa-envelope-o"></i>
+                    <input type="email" name="mail" id="res-mail" required placeholder="your Email">
+                </label>
+                <label for="res-pass">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" name="pass" id="res-pass" required placeholder="Your Password">
+                </label>
+                <label for="res-cfpass">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" name="cfpass" id="res-cfpass" required placeholder="Confirm Password">
+                </label>
+                <label for="chk1" class="check">
+                    <input type="checkbox" name="chk1" id="chk1">
+                    I accept <span>Terms of User</span> & <span>Privacy Policy</span>
+                </label>
+                <button type="submit">Register</button>
+
+                <p>Already have an account? <a href="#" class="next-log">Login now</a></p>
+            </form>
+        </div>
+    </div>
+    <div class="top-scroll">
+        <a href="#">&#11165</a>
+    </div>
+    
+</body>
+</html>
